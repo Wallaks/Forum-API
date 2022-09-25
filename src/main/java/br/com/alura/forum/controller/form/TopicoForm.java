@@ -4,11 +4,6 @@ import br.com.alura.forum.modelo.Curso;
 import br.com.alura.forum.modelo.Topico;
 import br.com.alura.forum.repository.CursoRepository;
 import com.sun.istack.NotNull;
-import net.bytebuddy.implementation.bind.annotation.Empty;
-import org.springframework.validation.annotation.Validated;
-
-import javax.persistence.Entity;
-
 public class TopicoForm {
 	@NotNull
 	private String titulo;
